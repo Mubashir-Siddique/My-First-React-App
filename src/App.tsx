@@ -23,7 +23,9 @@ function App() {
         onSelectItem={handleSelectItem}
       />
 
-      <Alert text="Hello World!" />
+      <Alert>
+        <span>Hello World!</span>
+      </Alert>
     </div>
   );
 }
