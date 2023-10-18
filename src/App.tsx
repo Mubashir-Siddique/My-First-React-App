@@ -28,7 +28,9 @@ function App() {
         <span>Hello World!</span>
       </Alert>
 
-      <Button text="Click Me!" />
+      <Button onClicked={() => console.log("Button Clicked!")}>
+        Click Me!
+      </Button>
     </div>
   );
 }
