@@ -1,4 +1,5 @@
 import Alert from "./components/Alert";
+import Button from "./components/Button";
 import ListGroup from "./components/ListGroup";
 
 function App() {
@@ -26,6 +27,8 @@ function App() {
       <Alert>
         <span>Hello World!</span>
       </Alert>
+
+      <Button text="Click Me!" />
     </div>
   );
 }
